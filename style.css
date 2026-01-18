@@ -1,0 +1,85 @@
+body {
+    background-color: #f7f7f7;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quiz-container {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 450px;
+    padding: 40px;
+    text-align: center;
+}
+
+.title {
+    color: #c0392b;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.options-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.options-list button {
+    padding: 15px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.options-list button:hover {
+    background-color: #c0392b;
+    color: white;
+    border-color: #c0392b;
+}
+
+.hidden {
+    display: none;
+}
+
+#score-text {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+#status-badge {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.pass { color: #27ae60; background: #eafaf1; border: 1px solid #27ae60; }
+.fail { color: #c0392b; background: #fdf2f2; border: 1px solid #c0392b; }
+
+.btn-restart {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 14px;
+}
